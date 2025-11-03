@@ -6,9 +6,9 @@ from werkzeug.security import generate_password_hash, check_password_hash
 import requests
 
 app = Flask(__name__)
-app.secret_key = "roszCmDpQe5vmoXVq9Fj2qUmlPI2ni1rZLabHGgSEEM"
+app.secret_key = "REPLACE_WITH_APP_SECRET_KEY"
 
-UNSPLASH_ACCESS_KEY = "mQe-BaNozRiF2x1x43bvrRIAOAZAPuHW57bZyAz-5xE"
+UNSPLASH_ACCESS_KEY = "REPLACE_WITH_UNSPLASH_ACCESS_KEY"
 
 DB_PATH = "app.db"
 
